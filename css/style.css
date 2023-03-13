@@ -274,6 +274,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 #tournaments .tournament-heading img{
   width: 50px;
@@ -509,6 +510,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 30px;
   }
   #tournaments .tournament-heading img{
     width: 50px;
