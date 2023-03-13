@@ -224,16 +224,6 @@ ul {
   margin-bottom: 0;
 }
 
-@keyframes fade {
-  from {
-    opacity: 0;
-    transform: translateY(-30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 /*================================
   ===== tournaments css ends =====
 ==================================*/
@@ -286,7 +276,7 @@ ul {
   justify-content: space-between;
 }
 #tournaments .tournament-heading img{
-  width: 100px;
+  width: 50px;
 }
 #tournaments .tournament-heading h1 {
   font-family: "Anton", sans-serif;
@@ -521,7 +511,7 @@ ul {
     justify-content: space-between;
   }
   #tournaments .tournament-heading img{
-    width: 100px;
+    width: 50px;
   }
   #tournaments .tournament-heading h1 {
     font-family: "Anton", sans-serif;
@@ -531,6 +521,7 @@ ul {
     text-shadow: 0px 0px 50px #5a0274;
     position: relative;
     letter-spacing: 1px;
+    width: 200px;
   }
   #tournaments .tournament-heading h1::after {
     content: '';
@@ -712,26 +703,6 @@ ul {
   /*================================
     ===== tournaments css ends =====
   ==================================*/
-  
-  /*================================
-    ===== copyright css starts =====
-  ==================================*/
-  #copyright {
-    background: #0b001b;
-  }
-  #copyright h4 {
-    font-family: "Nunito", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    color: #fff;
-    line-height: 16px;
-    padding: 20px 0px;
-    text-align: center;
-    text-transform: capitalize;
-  }
-  #copyright h4 span {
-    color: #fcb100;
-  }
 }
 
 /* ===== For Medium Device =====  */
