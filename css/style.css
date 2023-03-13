@@ -37,7 +37,7 @@ ul {
   justify-content: space-between;
 }
 #tournaments .tournament-heading img{
-  transform: scale(.8);
+  width: 100px;
 }
 #tournaments .tournament-heading h1 {
   font-family: "Anton", sans-serif;
@@ -286,7 +286,7 @@ ul {
   justify-content: space-between;
 }
 #tournaments .tournament-heading img{
-  transform: scale(.2);
+  width: 100px;
 }
 #tournaments .tournament-heading h1 {
   font-family: "Anton", sans-serif;
@@ -296,6 +296,7 @@ ul {
   text-shadow: 0px 0px 50px #5a0274;
   position: relative;
   letter-spacing: 1px;
+  width: 200px;
 }
 #tournaments .tournament-heading h1::after {
   content: '';
@@ -520,7 +521,7 @@ ul {
     justify-content: space-between;
   }
   #tournaments .tournament-heading img{
-    transform: scale(.2);
+    width: 100px;
   }
   #tournaments .tournament-heading h1 {
     font-family: "Anton", sans-serif;
