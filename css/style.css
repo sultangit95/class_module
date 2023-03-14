@@ -29,7 +29,7 @@ ul {
   background: #150035;
   background: #0b001b;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -281,12 +281,15 @@ ul {
   width: 100%;
   margin: 0 auto;
 }
+#marque .marque{
+  font-size: 14px;
+}
 #tournaments {
   background: #150035;
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 0px;
+  padding-top: 70px;
   /* width: 100%; */
 }
 #tournaments .tournament-heading{
@@ -517,12 +520,15 @@ ul {
     width: 100%;
     margin: 0 auto;
   }
+  #marque .marque{
+    font-size: 14px;
+  }
   #tournaments {
     background: #150035;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 0px;
+    padding-top: 70px;
     /* width: 100%; */
   }
   #tournaments .tournament-heading{
