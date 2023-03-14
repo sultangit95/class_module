@@ -22,13 +22,32 @@ ul {
 /*===========================
   ===== common css ends =====
 =============================*/
-
+/*=============================
+  ===== marque css starts =====
+===============================*/
+#marque{
+  background: #150035;
+  background: #0b001b;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+#marque .marque{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+/*===========================
+  ===== marque css ends =====
+=============================*/
 /*==================================
   ===== tournaments css starts =====
 ====================================*/
 #tournaments {
   background: #150035;
-  padding-top: 100px;
+  padding-top: 70px;
   padding-bottom: 100px;
 }
 #tournaments .tournament-heading{
