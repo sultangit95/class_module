@@ -26,7 +26,6 @@ ul {
   ===== marque css starts =====
 ===============================*/
 #marque{
-  background: #150035;
   background: #0b001b;
   padding-top: 20px;
   padding-bottom: 15px;
@@ -285,77 +284,22 @@ ul {
   font-size: 14px;
 }
 #tournaments {
-  background: #150035;
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 70px;
-  /* width: 100%; */
 }
 #tournaments .tournament-heading{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   margin-bottom: 30px;
 }
 #tournaments .tournament-heading img{
   width: 50px;
 }
 #tournaments .tournament-heading h1 {
-  font-family: "Anton", sans-serif;
-  font-weight: 400;
-  color: #fcb100;
   font-size: 14px;
-  text-shadow: 0px 0px 50px #5a0274;
-  position: relative;
   letter-spacing: 1px;
   width: 200px;
 }
-#tournaments .tournament-heading h1::after {
-  content: '';
-  width: 100%;
-  height: 2px;
-  background: #fcb100;
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-}
-
-#tournaments .tournament-countdown h4 {
-  font-family: "Anton", sans-serif;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 32px;
-  text-shadow: 0px 0px 50px #5a0274;
-}
 /* ========================================================================================= */
-#tournaments .tournament-countdown #countdown-active,
-#tournaments .tournament-countdown #countdown-active2,
-#tournaments .tournament-countdown #countdown-active3,
-#tournaments .tournament-countdown #countdown-active4,
-#tournaments .tournament-countdown #countdown-active5,
-#tournaments .tournament-countdown #countdown-active6,
-#tournaments .tournament-countdown #countdown-active7,
-#tournaments .tournament-countdown #countdown-active8,
-#tournaments .tournament-countdown #countdown-active9,
-#tournaments .tournament-countdown #countdown-active10,
-#tournaments .tournament-countdown #countdown-active11,
-#tournaments .tournament-countdown #countdown-active12,
-#tournaments .tournament-countdown #countdown-active13,
-#tournaments .tournament-countdown #countdown-active14,
-#tournaments .tournament-countdown #countdown-active15,
-#tournaments .tournament-countdown #countdown-active16,
-#tournaments .tournament-countdown #countdown-active17,
-#tournaments .tournament-countdown #countdown-active18,
-#tournaments .tournament-countdown #countdown-active19,
-#tournaments .tournament-countdown #countdown-active20,
-#tournaments .tournament-countdown #countdown-active21,
-#tournaments .tournament-countdown #countdown-active22,
-#tournaments .tournament-countdown #countdown-active23,
-#tournaments .tournament-countdown #countdown-active24,
-#tournaments .tournament-countdown #countdown-active25 {
-  display: flex;
-}
 #tournaments .tournament-countdown #countdown-active .countdown-box,
 #tournaments .tournament-countdown #countdown-active2 .countdown-box,
 #tournaments .tournament-countdown #countdown-active3 .countdown-box,
@@ -381,12 +325,8 @@ ul {
 #tournaments .tournament-countdown #countdown-active23 .countdown-box,
 #tournaments .tournament-countdown #countdown-active24 .countdown-box,
 #tournaments .tournament-countdown #countdown-active25 .countdown-box {
-  border: 1px solid #fcb100;
-  margin-left: 5px;
-  border-radius: 5px;
   height: 50px;
   width: 50px;
-  text-align: center;
 }
 #tournaments .tournament-countdown #countdown-active h2,
 #tournaments .tournament-countdown #countdown-active2 h2,
@@ -413,12 +353,7 @@ ul {
 #tournaments .tournament-countdown #countdown-active23 h2, 
 #tournaments .tournament-countdown #countdown-active24 h2,
 #tournaments .tournament-countdown #countdown-active25 h2 {
-  margin-bottom: 0px !important;
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
   font-size: 18px;
-  color: #fcb100;
-  padding-top: 5px;
 }
 #tournaments .tournament-countdown #countdown-active span,
 #tournaments .tournament-countdown #countdown-active2 span,
@@ -445,91 +380,27 @@ ul {
 #tournaments .tournament-countdown #countdown-active23 span,
 #tournaments .tournament-countdown #countdown-active24 span,
 #tournaments .tournament-countdown #countdown-active25 span {
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
   font-size: 14px;
-  color: #fcb100;
 }
 /* ================================================================================== */
-#tournaments .players-list .players-detail {
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: space-between; */
-  margin-bottom: 30px;
-  /* position: relative; */
-}
 #tournaments .players-list .players-detail h6,
 #tournaments .players-list .players-detail h5,
 #tournaments .players-list .players-detail h4 {
-  font-family: "Nunito", sans-serif;
-  font-weight: 400;
   font-size: 16px;
-  color: #fff;
 }
 #tournaments .players-list .players-detail h5{
   display: none;
 }
-#tournaments .players-list .players-detail h6::after {
-  content: '';
-  width: 100%;
-  height: 1px;
-  background: #fcb100;
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-}
-
-#tournaments .players-list .players-detail p {
-  font-family: "Nunito", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  color: #fff;
-  line-height: 50px;
-  margin-bottom: 0;
-}
-
 /*================================
   ===== tournaments css ends =====
 ==================================*/
-
-/*================================
-  ===== copyright css starts =====
-==================================*/
-#copyright {
-  background: #0b001b;
-}
-#copyright h4 {
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  color: #fff;
-  line-height: 16px;
-  padding: 20px 0px;
-  text-align: center;
-  text-transform: capitalize;
-}
-#copyright h4 span {
-  color: #fcb100;
-}
-
-}
-
-/* ===== For Small Device =====  */
+/* ========================================================== For Small Device ===================================================  */
 @media (min-width: 576px) and (max-width: 767px) {
-  .container {
-    width: 100%;
-    margin: 0 auto;
-  }
-  #marque .marque{
-    font-size: 14px;
-  }
   #tournaments {
-    background: #150035;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 70px;
-    /* width: 100%; */
   }
   #tournaments .tournament-heading{
     display: flex;
@@ -568,33 +439,6 @@ ul {
     text-shadow: 0px 0px 50px #5a0274;
   }
   /* ========================================================================================= */
-  #tournaments .tournament-countdown #countdown-active,
-  #tournaments .tournament-countdown #countdown-active2,
-  #tournaments .tournament-countdown #countdown-active3,
-  #tournaments .tournament-countdown #countdown-active4,
-  #tournaments .tournament-countdown #countdown-active5,
-  #tournaments .tournament-countdown #countdown-active6,
-  #tournaments .tournament-countdown #countdown-active7,
-  #tournaments .tournament-countdown #countdown-active8,
-  #tournaments .tournament-countdown #countdown-active9,
-  #tournaments .tournament-countdown #countdown-active10,
-  #tournaments .tournament-countdown #countdown-active11,
-  #tournaments .tournament-countdown #countdown-active12,
-  #tournaments .tournament-countdown #countdown-active13,
-  #tournaments .tournament-countdown #countdown-active14,
-  #tournaments .tournament-countdown #countdown-active15,
-  #tournaments .tournament-countdown #countdown-active16,
-  #tournaments .tournament-countdown #countdown-active17,
-  #tournaments .tournament-countdown #countdown-active18,
-  #tournaments .tournament-countdown #countdown-active19,
-  #tournaments .tournament-countdown #countdown-active20,
-  #tournaments .tournament-countdown #countdown-active21,
-  #tournaments .tournament-countdown #countdown-active22,
-  #tournaments .tournament-countdown #countdown-active23,
-  #tournaments .tournament-countdown #countdown-active24,
-  #tournaments .tournament-countdown #countdown-active25 {
-    display: flex;
-  }
   #tournaments .tournament-countdown #countdown-active .countdown-box,
   #tournaments .tournament-countdown #countdown-active2 .countdown-box,
   #tournaments .tournament-countdown #countdown-active3 .countdown-box,
@@ -652,11 +496,7 @@ ul {
   #tournaments .tournament-countdown #countdown-active23 h2, 
   #tournaments .tournament-countdown #countdown-active24 h2,
   #tournaments .tournament-countdown #countdown-active25 h2 {
-    margin-bottom: 0px !important;
-    font-family: "Nunito", sans-serif;
-    font-weight: 600;
     font-size: 18px;
-    color: #fcb100;
     padding-top: 5px;
   }
   #tournaments .tournament-countdown #countdown-active span,
@@ -684,57 +524,21 @@ ul {
   #tournaments .tournament-countdown #countdown-active23 span,
   #tournaments .tournament-countdown #countdown-active24 span,
   #tournaments .tournament-countdown #countdown-active25 span {
-    font-family: "Nunito", sans-serif;
-    font-weight: 600;
     font-size: 14px;
-    color: #fcb100;
   }
   /* ================================================================================== */
   #tournaments .players-list .players-detail {
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
     margin-bottom: 30px;
-    /* position: relative; */
   }
   #tournaments .players-list .players-detail h6,
   #tournaments .players-list .players-detail h5,
   #tournaments .players-list .players-detail h4 {
-    font-family: "Nunito", sans-serif;
-    font-weight: 400;
     font-size: 16px;
-    color: #fff;
   }
   #tournaments .players-list .players-detail h5{
     display: none;
   }
-  #tournaments .players-list .players-detail h6::after {
-    content: '';
-    width: 100%;
-    height: 1px;
-    background: #fcb100;
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-  }
-  
-  #tournaments .players-list .players-detail p {
-    font-family: "Nunito", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #fff;
-    line-height: 50px;
-    margin-bottom: 0;
-  }
-  
   /*================================
     ===== tournaments css ends =====
   ==================================*/
 }
-
-/* ===== For Medium Device =====  */
-@media (min-width: 768px) and (max-width: 991px) {
-  
-}
-
-
