@@ -210,7 +210,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   position: relative;
 }
 #tournaments .players-list .players-detail h6,
@@ -328,6 +328,7 @@ ul {
 #tournaments .tournament-countdown #countdown-active25 .countdown-box {
   height: 50px;
   width: 50px;
+  margin-left: 10px;
 }
 #tournaments .tournament-countdown #countdown-active h2,
 #tournaments .tournament-countdown #countdown-active2 h2,
