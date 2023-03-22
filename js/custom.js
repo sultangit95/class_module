@@ -38,57 +38,57 @@ $(document).ready(function(){
   });
   // =================
   // ===== class 5 =====
-  $("#countdown-active6").countdown("2023/03/25 20:00", function(event) {
+  $("#countdown-active6").countdown("2023/03/25 16:00", function(event) {
     $(this).html(event.strftime('<div class="countdown-box"><h2 class="single-countdown">%D</h2><span>Days</span></div> <div class="countdown-box"><h2 class="single-countdown">%H</h2><span>Hours</span></div> <div  class="countdown-box"><h2 class="single-countdown">%M</h2><span>Mins</span></div> <div  class="countdown-box"><h2 class="single-countdown">%S</h2><span>Secs</span></div>'));
   });
   // =================
   // ===== class 6 =====
-  $("#countdown-active7").countdown("2023/03/27 20:00", function(event) {
+  $("#countdown-active7").countdown("2023/03/27 16:00", function(event) {
     $(this).html(event.strftime('<div class="countdown-box"><h2 class="single-countdown">%D</h2><span>Days</span></div> <div class="countdown-box"><h2 class="single-countdown">%H</h2><span>Hours</span></div> <div  class="countdown-box"><h2 class="single-countdown">%M</h2><span>Mins</span></div> <div  class="countdown-box"><h2 class="single-countdown">%S</h2><span>Secs</span></div>'));
   });
   // =================
   // ===== class 7 =====
-  $("#countdown-active8").countdown("2023/03/29 20:00", function(event) {
+  $("#countdown-active8").countdown("2023/03/29 16:00", function(event) {
     $(this).html(event.strftime('<div class="countdown-box"><h2 class="single-countdown">%D</h2><span>Days</span></div> <div class="countdown-box"><h2 class="single-countdown">%H</h2><span>Hours</span></div> <div  class="countdown-box"><h2 class="single-countdown">%M</h2><span>Mins</span></div> <div  class="countdown-box"><h2 class="single-countdown">%S</h2><span>Secs</span></div>'));
   });
   // =================
   // ===== class 8 =====
-  $("#countdown-active9").countdown("2023/04/01 20:00", function(event) {
+  $("#countdown-active9").countdown("2023/04/01 16:00", function(event) {
     $(this).html(event.strftime('<div class="countdown-box"><h2 class="single-countdown">%D</h2><span>Days</span></div> <div class="countdown-box"><h2 class="single-countdown">%H</h2><span>Hours</span></div> <div  class="countdown-box"><h2 class="single-countdown">%M</h2><span>Mins</span></div> <div  class="countdown-box"><h2 class="single-countdown">%S</h2><span>Secs</span></div>'));
   });
   // =================
   // ===== class 9 =====
-  $("#countdown-active10").countdown("2023/04/03 20:00", function(event) {
+  $("#countdown-active10").countdown("2023/04/03 16:00", function(event) {
     $(this).html(event.strftime('<div class="countdown-box"><h2 class="single-countdown">%D</h2><span>Days</span></div> <div class="countdown-box"><h2 class="single-countdown">%H</h2><span>Hours</span></div> <div  class="countdown-box"><h2 class="single-countdown">%M</h2><span>Mins</span></div> <div  class="countdown-box"><h2 class="single-countdown">%S</h2><span>Secs</span></div>'));
   });
   // =================
   // ===== class 10 =====
-  $("#countdown-active11").countdown("2023/04/05 20:00", function(event) {
+  $("#countdown-active11").countdown("2023/04/05 16:00", function(event) {
     $(this).html(event.strftime('<div class="countdown-box"><h2 class="single-countdown">%D</h2><span>Days</span></div> <div class="countdown-box"><h2 class="single-countdown">%H</h2><span>Hours</span></div> <div  class="countdown-box"><h2 class="single-countdown">%M</h2><span>Mins</span></div> <div  class="countdown-box"><h2 class="single-countdown">%S</h2><span>Secs</span></div>'));
   });
   // =================
   // ===== class 11 =====
-  $("#countdown-active12").countdown("2023/04/08 20:00", function(event) {
+  $("#countdown-active12").countdown("2023/04/08 16:00", function(event) {
     $(this).html(event.strftime('<div class="countdown-box"><h2 class="single-countdown">%D</h2><span>Days</span></div> <div class="countdown-box"><h2 class="single-countdown">%H</h2><span>Hours</span></div> <div  class="countdown-box"><h2 class="single-countdown">%M</h2><span>Mins</span></div> <div  class="countdown-box"><h2 class="single-countdown">%S</h2><span>Secs</span></div>'));
   });
   // =================
   // ===== class 12 =====
-  $("#countdown-active13").countdown("2023/04/10 20:00", function(event) {
+  $("#countdown-active13").countdown("2023/04/10 16:00", function(event) {
     $(this).html(event.strftime('<div class="countdown-box"><h2 class="single-countdown">%D</h2><span>Days</span></div> <div class="countdown-box"><h2 class="single-countdown">%H</h2><span>Hours</span></div> <div  class="countdown-box"><h2 class="single-countdown">%M</h2><span>Mins</span></div> <div  class="countdown-box"><h2 class="single-countdown">%S</h2><span>Secs</span></div>'));
   });
   // =================
   // ===== class 13 =====
-  $("#countdown-active14").countdown("2023/04/12 20:00", function(event) {
+  $("#countdown-active14").countdown("2023/04/12 16:00", function(event) {
     $(this).html(event.strftime('<div class="countdown-box"><h2 class="single-countdown">%D</h2><span>Days</span></div> <div class="countdown-box"><h2 class="single-countdown">%H</h2><span>Hours</span></div> <div  class="countdown-box"><h2 class="single-countdown">%M</h2><span>Mins</span></div> <div  class="countdown-box"><h2 class="single-countdown">%S</h2><span>Secs</span></div>'));
   });
   // =================
   // ===== class 14 =====
-  $("#countdown-active15").countdown("2023/04/15 20:00", function(event) {
+  $("#countdown-active15").countdown("2023/04/15 16:00", function(event) {
     $(this).html(event.strftime('<div class="countdown-box"><h2 class="single-countdown">%D</h2><span>Days</span></div> <div class="countdown-box"><h2 class="single-countdown">%H</h2><span>Hours</span></div> <div  class="countdown-box"><h2 class="single-countdown">%M</h2><span>Mins</span></div> <div  class="countdown-box"><h2 class="single-countdown">%S</h2><span>Secs</span></div>'));
   });
   // =================
   // ===== class 15 =====
-  $("#countdown-active16").countdown("2023/04/17 20:00", function(event) {
+  $("#countdown-active16").countdown("2023/04/17 16:00", function(event) {
     $(this).html(event.strftime('<div class="countdown-box"><h2 class="single-countdown">%D</h2><span>Days</span></div> <div class="countdown-box"><h2 class="single-countdown">%H</h2><span>Hours</span></div> <div  class="countdown-box"><h2 class="single-countdown">%M</h2><span>Mins</span></div> <div  class="countdown-box"><h2 class="single-countdown">%S</h2><span>Secs</span></div>'));
   });
   // =================
